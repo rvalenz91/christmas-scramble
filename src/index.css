@@ -1,0 +1,66 @@
+body {
+    font-family: Arial;
+    background: #b30000;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.page {
+    padding: 20px;
+}
+
+.nav {
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 2px solid white;
+}
+
+.nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* SCRABBLE TILES */
+.tiles {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 20px;
+}
+
+.tile {
+    width: 50px;
+    height: 50px;
+    background: #fff3d6;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid #333;
+    border-radius: 6px;
+
+    box-shadow: 2px 2px 0px #000;
+}
+
+.tile:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
